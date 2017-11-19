@@ -1,0 +1,63 @@
+/*
+Theme Name: WP
+Theme URI: http://www.youtube.com/LearnWebCode
+Version: 1.0
+*/
+body{
+font-family: Lucida Fax;
+font-size: 15px;
+color: #000000;
+
+background-image:url("white.jpg");
+}
+h1{
+text-align: center;
+}
+h5{
+text-align:center;
+font-size: 15px;
+color: #333;
+}
+marquee{
+font-size:15px;
+font-color:#000000;
+font-family:Lucida Fax;
+}
+my_video{
+width:50%;
+margin:0 auto;
+display:block;
+position:absolute;
+}
+.intro{
+width:100%;
+}
+a:link,
+a:visited{
+color:#0ff00;
+}
+.site-nav ul{
+margin:0;
+padding:0;
+}
+.site-nav ul:before,.site-nav ul:after{content:"";display:table;}
+.site-nav ul:after{clear:both;}
+.site-nav ul{*zoom:1;}
+.site-nav ul li{
+list-style: none;
+float:left;
+}
+/*Site Header*/
+.site-header nav ul li a:link,
+.site-header nav ul li a:hover,
+.site-header nav ul li a:visited{
+display:block;
+padding: 10px 15px;
+border: 1px solid #BBB;
+text-decoration:none;
+color:#000000;
+}
+.site-header nav ul li a:hover{
+color:#c1c1c1;
+}
+}
